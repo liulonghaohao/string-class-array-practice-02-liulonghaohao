@@ -18,7 +18,7 @@ public class Phrase
      int i=1;
      int s=(currentPrase. substring(loc+1)).indexOf(str);
      while(i<n&&!s=-1){
-    loc=(currentPrase. substring(loc+1)).indexOf(str)+1;
+    int loc=(currentPrase. substring(loc+1)).indexOf(str)+1;
      i+=1;
          s=(currentPrase. substring(loc+1)).indexOf(str);
      }
