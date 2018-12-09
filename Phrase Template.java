@@ -14,11 +14,16 @@ public class Phrase
      *  Postcondition: the current phrase is not modified.
      */
     public static int findNthOccurrence(String str, int n)
-    {
-        for(int i=0,i<str.length();i++){
-            if(n.compareTO(str)!=-1){
+    { int loc = currentPhrase.indexOf(str);
+     int i=1;
+     int s=(currentPrase. substring(loc+1)).indexOf(str);
+     while(i<n&&!a=-1){
+    loc=(currentPrase. substring(loc+1)).indexOf(str)+1;
+     i+1;
+         s=(currentPrase. substring(loc+1)).indexOf(str);
+     }
                 
-        int loc = currentPhrase.indexOf(str);
+       
         return loc;
     }
 
