@@ -56,7 +56,7 @@ public class Phrase
       while(findNthOccurrence(str,n) != -1){
       n++;
       }
-      return findNthOccurrence(str,n-1);
+      return findNthOccurrence(str,n);
               
     }
     /** Returns a string containing the current phrase */
